@@ -1,0 +1,12 @@
+copy data_src       FROM 'PWD/db/usda_files/DATA_SRC.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy data_src_link  FROM 'PWD/db/usda_files/DATSRCLN.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy deriv_cd       FROM 'PWD/db/usda_files/DERIV_CD.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy fd_group       FROM 'PWD/db/usda_files/FD_GROUP.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy food_des       FROM 'PWD/db/usda_files/FOOD_DES.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy footnote       FROM 'PWD/db/usda_files/FOOTNOTE.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy langdesc       FROM 'PWD/db/usda_files/LANGDESC.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy langual        FROM 'PWD/db/usda_files/LANGUAL.txt.utf8'  (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy nut_data       FROM 'PWD/db/usda_files/NUT_DATA.txt.utf8' (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy nutr_def       FROM 'PWD/db/usda_files/NUTR_DEF.txt.utf8'  (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy src_cd         FROM 'PWD/db/usda_files/SRC_CD.txt.utf8'   (FORMAT CSV, DELIMITER '^', QUOTE '~');
+copy weight         FROM 'PWD/db/usda_files/WEIGHT.txt.utf8'   (FORMAT CSV, DELIMITER '^', QUOTE '~');
